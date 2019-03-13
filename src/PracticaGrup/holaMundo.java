@@ -8,6 +8,7 @@ public class holaMundo {
 		System.out.println("Adrian camacho me lo come to");
 
 		System.out.println("El jona la chupa");
+		System.out.println("");
 
 		System.out.println("El joan fuma como un puto porreta de mierda");
 	}
