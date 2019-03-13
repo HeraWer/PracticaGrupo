@@ -11,6 +11,8 @@ public class holaMundo {
 		System.out.println("");
 
 		System.out.println("El joan fuma como un puto porreta de mierda");
+		
+		System.out.println("El joan es un parquelita que no tiene ni idea de nada");
 	}
 
 }
