@@ -13,6 +13,8 @@ public class main {
 		System.out.println("Id del bus: " + bus1.getIdNum() + "\rKM: " + bus1.getKm() + "\rPreu del viatge: " + bus1.calculaPreu() + "\rEl conductor es: " + bus1.getConductor().getNom());
 		ges.añadirBus(bus1);
 		ges.añadirBus(bus2);
+		System.out.println("Id del bus: " + bus1.getIdNum() + "\rKM: " + bus1.getKm() + "\rPreu del viatge: " + bus1.calculaPreu() + "\rEl conductor es: " + bus1.getConductor().getNom());
+		System.out.println("Id del bus: " + bus2.getIdNum() + "\rRUTA: " + bus2.getRuta() + "\rPreu del viatge: " + bus2.calculaPreu() + "\rEl conductor es: " + bus2.getConductor().getNom());
 		System.out.println(ges.toString());
 		
 		
