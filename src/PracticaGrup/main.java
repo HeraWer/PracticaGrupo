@@ -15,6 +15,8 @@ public class main {
 		ges.añadirBus(bus2);
 		System.out.println(ges.toString());
 		
+		
+		
 	}
 
 }
