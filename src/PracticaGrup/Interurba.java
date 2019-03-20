@@ -1,16 +1,13 @@
 package PracticaGrup;
 
 public class Interurba extends Autobus{
-	private double preuBase;
 	private double km;
 	
-	public double calculaPreu() {
-		return preuBase * km;
+	@Override
+	public String toString() {
+		return "Interurba [preuBase=" + preuBase + ", km=" + km + "]";
 	}
-	
-	public double getPreuBase() {
-		return preuBase;
-	}
+
 	public void setPreuBase(double preuBase) {
 		this.preuBase = preuBase;
 	}

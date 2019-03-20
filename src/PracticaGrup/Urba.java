@@ -1,6 +1,11 @@
 package PracticaGrup;
 
-public abstract class Urba extends Autobus{
+public class Urba extends Autobus{
+
+	@Override
+	public String toString() {
+		return "Urba [preuBase=" + preuBase + ", ruta=" + ruta + "]";
+	}
 
 	private double preuBase;
 	private char ruta;
