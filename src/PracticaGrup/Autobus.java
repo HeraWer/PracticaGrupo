@@ -1,9 +1,17 @@
 package PracticaGrup;
 
-public interface Autobus {
-
-	public static void hola() {
-		System.out.println("HHHHHHHHHHHHHHHHHHHHHH");
-		System.out.println("jiwdjefowjfofrndrflreehk");
+public class Autobus {
+	
+	private int idNum;
+	private Conductor conductor;
+	private double preuBase;
+	
+	public Autobus(int idNum, Conductor conductor, double preuBase) {
+		super();
+		this.idNum = idNum;
+		this.conductor = conductor;
+		this.preuBase = preuBase;
 	}
+	
+	
 }

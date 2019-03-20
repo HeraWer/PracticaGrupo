@@ -3,12 +3,12 @@ package PracticaGrup;
 public class Conductor {
 	
 	private String nom;
-	private double preuBase;
+	private double salari;
 	
-	public Conductor(String nom, double preuBase) {
+	public Conductor(String nom, double salari) {
 		super();
 		this.nom = nom;
-		this.preuBase = preuBase;
+		this.salari = salari;
 	}
 
 	public String getNom() {
@@ -19,11 +19,11 @@ public class Conductor {
 		this.nom = nom;
 	}
 
-	public double getPreuBase() {
-		return preuBase;
+	public double getsalari() {
+		return salari;
 	}
 
-	public void setPreuBase(double preuBase) {
-		this.preuBase = preuBase;
+	public void setsalari(double salari) {
+		this.salari = salari;
 	}
 }
