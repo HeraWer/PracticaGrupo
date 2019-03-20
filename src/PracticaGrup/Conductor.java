@@ -1,10 +1,10 @@
 package PracticaGrup;
 
 public class Conductor {
-	
+
 	private String nom;
 	private double salari;
-	
+
 	public Conductor(String nom, double salari) {
 		super();
 		this.nom = nom;

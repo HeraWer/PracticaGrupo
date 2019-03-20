@@ -1,13 +1,24 @@
 package PracticaGrup;
 
-public abstract class Autobus{
-	
+public abstract class Autobus {
+
 	private int idNum;
 	private Conductor conductor;
-	
-	public Autobus(int idNum, Conductor conductor) {
+	private double preuBase;
+
+	public Autobus(int idNum, Conductor conductor, double preuBase) {
+		super();
 		this.idNum = idNum;
 		this.conductor = conductor;
+		this.preuBase = preuBase;
+	}
+
+	public double getPreuBase() {
+		return preuBase;
+	}
+
+	public void setPreuBase(double preuBase) {
+		this.preuBase = preuBase;
 	}
 
 	public int getIdNum() {
@@ -27,5 +38,5 @@ public abstract class Autobus{
 	}
 
 	public abstract double calculaPreu();
-	
+
 }
